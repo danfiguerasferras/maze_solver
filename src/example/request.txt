@@ -1,0 +1,45 @@
+{
+    "game": {
+        "id": uuid
+    },
+    "player": {
+        "id": uuid,
+        "name": string,
+        "position": {
+            "y": int,
+            "x": int
+        },
+        "previous": {
+            "y": int,
+            "x": int
+        },
+        "area": {
+            "y1": int,
+            "x1": int,
+            "y2": int,
+            "x2": int
+        }
+    },
+    "maze": {
+        "size": {
+            "height": int,
+            "width": int
+        },
+        "goal": {
+            "y": int,
+            "x": int
+        },
+        "walls": [
+            {
+                "y": int,
+                "x": int
+            },
+        ]
+    },
+    "ghosts": [
+        {
+            "y": int,
+            "x": int
+        }
+    ]
+}
